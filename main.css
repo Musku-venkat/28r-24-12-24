@@ -1,0 +1,186 @@
+.main{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    padding: 16px;
+    display: grid;
+    gap: 17px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px 250px;
+}
+
+.main>*{
+    /* border: 1px solid black; */
+    overflow: hidden;
+    text-align: start;
+    cursor: pointer;
+    transition: 2s ease;
+    text-align: start;position: relative;
+}
+
+.main-1{
+    grid-column: 1/3;
+    position: relative;
+}
+
+.main-2{
+    grid-column: 3/5;
+    position: relative;
+}
+
+.main-3{
+    grid-column: 5/7;
+    position: relative;
+}
+
+.main-4{
+    grid-column: 1/5;
+    position: relative;
+}
+
+.main-5{
+    grid-column: 5/7;
+    position: relative;
+}
+
+.main-6{
+    grid-column: 1/4;
+    position: relative;
+}
+
+.main-7{
+    grid-column: 4/7;
+    position: relative;
+}
+
+.main-8{
+    grid-column: 1/5;
+    position: relative;
+}
+
+.main-9{
+    grid-column: 5/7;
+    position: relative;
+}
+
+.main-10{
+    grid-column: 1/4;
+    position: relative;
+}
+
+.main-11{
+    grid-column: 4/7;
+    position: relative;
+}
+
+.main-12{
+    grid-column: 1/5;
+    position: relative;
+}
+
+.main-13{
+    grid-column: 5/7;
+    position: relative;
+}
+
+.main-14{
+    grid-column: 1/3;
+    position: relative;
+}
+
+.main-15{
+    grid-column: 3/5;
+    position: relative;
+}
+
+.main-16{
+    grid-column: 5/7;
+    position: relative;
+} 
+
+.main-1>img, .main-2>img, .main-3>img, .main-4>img, .main-5>img, .main-6>img, .main-7>img, .main-8>img, .main-9>img, .main-10>img, .main-11>img, .main-12>img, .main-13>img, .main-14>img, .main-15>img, .main-16>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-1:hover img, .main-2:hover img, .main-3:hover img, .main-4:hover img, .main-5:hover img, .main-6:hover img, .main-7:hover img, .main-8:hover img, .main-9:hover img, .main-10:hover img, .main-11:hover img, .main-12:hover img, .main-13:hover img, .main-14:hover img, .main-15:hover img, .main-16:hover img{
+    transform: scale(1.1);
+}
+
+h2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+.main-2>h2::after{
+    content: ' \270A';
+}
+
+.main-8>h2::after{
+    content: ' \270C';
+}
+
+.main-9>h2::after{
+    content: ' \261D';
+}
+
+.main-12>h2::after{
+    content: ' \2728';
+}
+
+p{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+i{
+    font-size: 25px;
+}
+
+span{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    /* border: 2px solid black; */
+    padding: 5px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main-2>span, .main-3>span, .main-15>span, .main-16>span{
+    color: #384C74;
+}
+
+.main-1>span, .main-4>span, .main-5>span, .main-6>span, .main-7>span, .main-8>span, .main-9>span, .main-10>span, .main-11>span, .main-12>span, .main-13>span, .main-14>span{
+    color: white;
+}
+
+.main-1>span, .main-8>span, .main-10>span, .main-12>span, .main-14>span{
+    background-color: #42BA96;
+}
+
+.main-2>span, .main-15>span{
+    background-color: #F9D776;
+}
+
+.main-3>span, .main-16>span{
+    background-color: white;
+}
+
+.main-4>span, .main-9>span{
+    background-color: #ff2d55;
+}
+
+.main-5>span, .main-6>span, .main-13>span{
+    background-color: #7B69EF;
+}
+
+.main-7>span, .main-11>span{
+    background-color: #315FE9;;
+}
+       
